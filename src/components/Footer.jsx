@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
           <div style={styles.contactItem}>
             <span style={styles.label}>Phone</span>
-            <a href="tel:+917387520222" style={styles.link}>+91 9561634990</a>
+            <a href="tel:+917387520222" style={styles.link}>+91 7387520222</a>
           </div>
           <div style={styles.contactItem}>
             <span style={styles.label}>Location</span>
