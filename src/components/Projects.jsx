@@ -25,6 +25,7 @@ const Projects = () => {
       category: "Educational Innovation",
       stack: "Express, Multer (for file/document handling), and Groq AI (for rapid inference)",
       description: "Developed a robust Node.js/Express backend for a Computer-Based Testing (CBT) engine, integrating Multer for secure file processing and Groq AI for lightning-fast inference. Deployed the dynamic web service via Render with automated CI/CD pipelines to ensure seamless production updates.",
+      link: "https://cbt-engin-exam.onrender.com ↗",
     }
   ];
 
@@ -43,8 +44,8 @@ const Projects = () => {
               <p style={styles.description}>{project.description}</p>
 
             <div style={styles.linkContainer}>
-              <a href="https://cbt-engin-exam.onrender.com" target="_blank" rel="noopener noreferrer" 
-                 style={{ ...styles.codeLink, textDecoration: 'none' }} > https://cbt-engin-exam.onrender.com ↗ </a>
+              /* { <span style={styles.codeLink}>Your link ↗</span> } */
+              <span style={{ fontSize: '0.9rem', color: '#64748b', fontStyle: 'italic' }}>Deployment Details Available on Request</span>
             </div>
             </div>
           ))}
