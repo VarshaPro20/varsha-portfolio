@@ -19,6 +19,12 @@ const Projects = () => {
       category: "Educational Innovation",
       stack: "Core Java, Excel Database Integration",
       description: "Built a functional, event-driven voting simulator utilized for experiential learning and educational election cycles. Successfully processed real-time inputs for Grades VI–VIII, introducing students to practical IT development concepts.",
+    },
+    {
+      title: "Computer Based Testing(CBT) Machine",
+      category: "Educational Innovation",
+      stack: "Express, Multer (for file/document handling), and Groq AI (for rapid inference)",
+      description: "Developed a robust Node.js/Express backend for a Computer-Based Testing (CBT) engine, integrating Multer for secure file processing and Groq AI for lightning-fast inference. Deployed the dynamic web service via Render with automated CI/CD pipelines to ensure seamless production updates. Link - https://cbt-engin-exam.onrender.com",
     }
   ];
 
